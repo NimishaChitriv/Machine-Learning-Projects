@@ -94,8 +94,8 @@ def main():
                 st.success("You can sell you car for {:.2f} lakhs".format(pred[0]))
             else:
                 st.warning("You cannot sell this car")
-   except:
-       st.warning("Oops! Something went wrong")
+     except:
+        st.warning("Oops! Something went wrong")
                     
             
         
